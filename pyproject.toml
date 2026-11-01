@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "konu-crawlers"
+version = "0.1.0"
+description = "Crawlers for Hyderabad / Telangana real-estate sources (RERA, HMDA, GHMC, IGRS, Bhu Bharati and 14 listing portals)"
+requires-python = ">=3.10"
+dependencies = ["requests>=2.31", "beautifulsoup4>=4.12", "lxml>=5"]
+
+[project.optional-dependencies]
+browser = ["playwright>=1.45"]
+test = ["pytest>=8"]
+
+[project.scripts]
+konu-crawl = "konu_crawlers.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["konu_crawlers*"]
+
+[tool.setuptools.package-data]
+konu_crawlers = ["certs/*.pem"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
