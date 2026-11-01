@@ -1,0 +1,333 @@
+{
+  "city": "hyderabad",
+  "data_dir": "data",
+  "csv": "data/hyderabad_records.csv",
+  "delay_seconds": 2.0,
+  "blocked_retry_hours": 12,
+  "detail_budget_minutes": 20,
+  "detail_max_age_days": 30,
+  "drop_unseen_after_days": 45,
+  "materials_csv": "config/materials.csv",
+  "cement_price": null,
+  "steel_price": null,
+  "proxy": null,
+  "gcs_bucket": null,
+  "gcs_object": "hyderabad_records.csv",
+  "jobs": [
+    {
+      "source": "nobroker",
+      "type": "sale",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "nobroker",
+      "type": "rent",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "magicbricks",
+      "type": "sale",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "magicbricks",
+      "type": "rent",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "squareyards",
+      "type": "sale",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "squareyards",
+      "type": "rent",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "realestateindia",
+      "type": "sale",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "realestateindia",
+      "type": "rent",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "roofandfloor",
+      "type": "sale",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "roofandfloor",
+      "type": "rent",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "99acres",
+      "type": "sale",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "99acres",
+      "type": "rent",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "housing",
+      "type": "sale",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "housing",
+      "type": "rent",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "makaan",
+      "type": "sale",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "makaan",
+      "type": "rent",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "commonfloor",
+      "type": "sale",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "commonfloor",
+      "type": "rent",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "indiaproperty",
+      "type": "sale",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "indiaproperty",
+      "type": "rent",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "olx",
+      "type": "sale",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "olx",
+      "type": "rent",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "sulekha",
+      "type": "sale",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "sulekha",
+      "type": "rent",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "quikr",
+      "type": "sale",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 30
+    },
+    {
+      "source": "quikr",
+      "type": "rent",
+      "every_hours": 6,
+      "max_pages": 5,
+      "timeout_minutes": 30
+    },
+    {
+      "source": "sulekha",
+      "type": "latest",
+      "every_hours": 6,
+      "max_pages": 1,
+      "timeout_minutes": 10
+    },
+    {
+      "source": "magicbricks",
+      "type": "projects",
+      "every_hours": 24,
+      "max_pages": 5,
+      "timeout_minutes": 30
+    },
+    {
+      "source": "squareyards",
+      "type": "projects",
+      "every_hours": 24,
+      "max_pages": 5,
+      "timeout_minutes": 30
+    },
+    {
+      "source": "proptiger",
+      "type": "projects",
+      "every_hours": 24,
+      "max_pages": 5,
+      "timeout_minutes": 30
+    },
+    {
+      "source": "roofandfloor",
+      "type": "projects",
+      "every_hours": 24,
+      "max_pages": 5,
+      "timeout_minutes": 30
+    },
+    {
+      "source": "realestateindia",
+      "type": "projects",
+      "every_hours": 24,
+      "max_pages": 5,
+      "timeout_minutes": 30
+    },
+    {
+      "source": "99acres",
+      "type": "projects",
+      "every_hours": 24,
+      "max_pages": 5,
+      "timeout_minutes": 30
+    },
+    {
+      "source": "housing",
+      "type": "projects",
+      "every_hours": 24,
+      "max_pages": 5,
+      "timeout_minutes": 30
+    },
+    {
+      "source": "99acres",
+      "type": "agents",
+      "every_hours": 168,
+      "max_pages": 3,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "realestateindia",
+      "type": "agents",
+      "every_hours": 168,
+      "max_pages": 3,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "sulekha",
+      "type": "agents",
+      "every_hours": 168,
+      "max_pages": 3,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "justdial",
+      "type": "agents",
+      "every_hours": 168,
+      "max_pages": 3,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "justdial",
+      "type": "builders",
+      "every_hours": 168,
+      "max_pages": 3,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "hmda",
+      "type": "layouts",
+      "every_hours": 168,
+      "max_pages": 1,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "hmda",
+      "type": "permissions",
+      "every_hours": 168,
+      "max_pages": 1,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "ghmc",
+      "type": "permissions",
+      "every_hours": 168,
+      "max_pages": 3,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "igrs",
+      "type": "market_values",
+      "every_hours": 168,
+      "max_pages": 3,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "igrs",
+      "type": "statistics",
+      "every_hours": 168,
+      "max_pages": 3,
+      "timeout_minutes": 20
+    },
+    {
+      "source": "bhubharati",
+      "type": "prohibited",
+      "every_hours": 168,
+      "max_pages": 3,
+      "timeout_minutes": 20
+    }
+  ]
+}
